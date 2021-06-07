@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import UseStateButton from './components/UseStateButton';
+import UseStateType from './components/UseStateType';
+import StartPage from './components/StartPage';
+import UseEffectCompare from './components/UseEffectCompare';
+
+
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route path="/" exact component={StartPage} />
+          <Route path="/UseStateButton" exact component={UseStateButton}/>
+          <Route path="/UseStateType" exact component={UseStateType} />
+          <Route path="/UseEffectCompare" exact component={UseEffectCompare} />
+
+        </Switch>
+      </div>
+    </Router>
+
   );
 }
 
