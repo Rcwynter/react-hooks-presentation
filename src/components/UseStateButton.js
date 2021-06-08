@@ -9,18 +9,22 @@ const UseStateButton = () => {
 
   return (
     <div>
-      <h1>useState Button Page</h1>
-      <p>Count = {count}</p>
-      <button onClick={() => setCount(count + 1)}>Increment Count</button>
+      <h1>useState continued</h1>
+      <div id="button-div">
+        <p id="clicked">You clicked <span id="count">{count}</span> times</p>
+        <button onClick={() => setCount(count + 1)}>Click Me!</button>
+        <button onClick={() => setCount(0)}>Reset</button>
+      </div>
       <br></br>
-      <img src={example} className="UseStateButtonExample" alt="useState button example" />
-
-      <Link to="/">
-        <h5>Previous Page</h5>
-      </Link>
-      <Link to="/UseStateType">
-        <h5>Next Page</h5>
-      </Link>
+      <img id="useState-button-pic" src={example} className="UseStateButtonExample" alt="useState button example" />
+      <nav>
+        <Link to="/UseStateDestructure" className="previous">
+          <span>Previous Page</span>
+        </Link>
+        <Link to="/UseStateType" className="next">
+          <span>Next Page</span>
+        </Link>
+      </nav>
     </div>
   )
 }

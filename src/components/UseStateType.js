@@ -9,18 +9,19 @@ const UseStateType = () => {
 
   return (
     <div>
-      <h1>useStateType Page</h1>
-      <h2>{input}</h2>
-      <input type="text" value={input} placeholder="Type something here" onChange={(e) => setInput(e.target.value)}></input>
+      <h1>useState continued</h1>
+      <h2 id="invisible-text">{input}</h2>
+      <input id="useState-input" type="text" value={input} placeholder="Type something here" onChange={(e) => setInput(e.target.value)}></input>
       <br></br>
-      <img src={example} className="UseStateButtonExample" alt="useState text input example" />
-
-      <Link to="/UseStateButton">
-        <h5>Previous Page</h5>
-      </Link>
-      <Link to="/UseEffectCompare">
-        <h5>Next Page</h5>
-      </Link>
+      <img id="useStateType-pic" src={example} className="UseStateButtonExample" alt="useState text input example" />
+      <nav>
+        <Link to="/UseStateButton" className="previous">
+          <span>Previous Page</span>
+        </Link>
+        <Link to="/UseEffectIntro" className="next">
+          <span>Next Page</span>
+        </Link>
+      </nav>
     </div>
   )
 }

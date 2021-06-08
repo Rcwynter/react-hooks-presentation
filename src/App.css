@@ -2,37 +2,273 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#tech-talk {
+  margin: auto;
+  height: auto;
+  width: 98vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  position: fixed;
+  top: 0px;
+  right: 565px;
+  line-height: 90px;
+  width: 900px;
+  height: 900px;
+  background-image: url(./examples/react_hooks_logo.png)
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#inner {
+  position: relative;
+  top: 250px;
+  left: 140px;
+}
+
+
+nav {
+  background-color: rgba(4, 6, 14, 0.801);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+#useState-destructure-pic {
+  position: relative;
+  top: 70px;
+}
+
+.bullet-points {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 90px;
+  position: fixed;
+  top: 200px;
+  left: 500px;
+  text-align: center;
+
+}
+
+#end {
+  position: relative;
+  top: 300px;
+}
+
+#component-div {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 80px;
+  position: fixed;
+  top: 250px;
+  left: 100px;
+  text-align: left;
+
+}
+
+#component-d {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 80px;
+  position: fixed;
+  top: 250px;
+  left: 400px;
+  text-align: center;
+}
+
+.why-react-hooks {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 100px;
+  position: fixed;
+  top: 200px;
+  left: 490px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+#function-component-img {
+  position: fixed;
+  right: 30px;
+  top: 250px;
+  height: auto;
+  width: 700px;
+
+}
+
+#useState-button-pic {
+  position: relative;
+  left: 400px;
+  width: 800px;
+  height: auto;
+}
+
+button {
+  font-size: 20px;
+}
+
+#clicked {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#button-div {
+  position: relative;
+  top: 250px;
+  right: 400px;
+}
+
+#count {
+  color: red;
+}
+
+#useState-input {
+  position: fixed;
+  top: 420px;
+  left: 270px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+img {
+  border-radius: 7px;
+}
+
+#old-component-pic {
+  position: fixed;
+  height: auto;
+  width: 700px;
+  top: 250px;
+  right: 50px;
+
+
+}
+
+
+#useStateType-pic {
+  position: fixed;
+  left: 750px;
+  top: 310px;
+  width: 900px;
+  height: auto;
+}
+
+#invisible-text {
+  position: relative;
+  font-size: 50px;
+  font-weight: 500;
+  color: red;
+  top: 40px;
+}
+
+.next-solo {
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  top: 19px;
+  left: 665px;
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.next {
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  top: 19px;
+  left: 600px;
+  text-decoration: none;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.previous {
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  top: 19px;
+  right: 600px;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+#lifecycle-count{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#useEffect-title {
+  position: relative;
+  top: 50px;
+  right: 100px;
+}
+
+#lifecycle-methods-img {
+  position: fixed;
+  height: auto;
+  width: 450px;
+  top: 25px;
+  right: 150px;
+}
+
+#useEffect-cycle-img {
+  position: fixed;
+  height: auto;
+  width: 450px;
+  top: 475px;
+  right: 150px;
+}
+
+#lifecycle-div {
+  color: red;
+  position: fixed;
+  top: 250px;
+  left: 335px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#lifecycle-button-div {
+  position: fixed;
+  top: 450px;
+  left: 340px;
+}
+
+#lifecycle-img {
+  width: 525px;
+  height: auto;
+  position: fixed;
+  right: 180px;
+  top: 170px;
+}
+
+#useContext-app {
+  position: fixed;
+  left: 10px;
+  height: auto;
+  width: 600px;
+}
+
+#useContext-demo {
+  position: fixed;
+  right: 10px;
+  bottom: 110px;
+  height: auto;
+  width: 650px;
+}
+
+#useContext-button {
+  position: fixed;
+  top: 400px;
+  left: 775px;
+}
+
+#useContext-showing {
+  position: fixed;
+  right: 680px;
+  top: 200px;
 }
