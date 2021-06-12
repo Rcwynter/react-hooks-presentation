@@ -4,7 +4,7 @@ This react application was built to educate on the basics of React Hooks, and to
 
 Primary references for this presentation include:
 - [React Hooks Documentation](https://reactjs.org/docs/hooks-reference.html).
-- [React Hooks Tutorial](https://www.youtube.com/watch?v=f687hBjwFcM&t=2333s).
+- [React Hooks Tutorial](https://www.youtube.com/watch?v=f687hBjwFcM).
 - [10 React Hooks Explained // Plus Build your own from Scratch](https://www.youtube.com/watch?v=TNhaISOUy6Q).
 
 ## Starting the App:
