@@ -1,8 +1,8 @@
 # React Hooks Presentation
 
-This react application was built to educate on the basics of React Hooks, and to demonstrate the functionality of 3 primary React Hooks: useState, useEffect, and useContext.\
+This react application was built to educate on the basics of React Hooks, and to demonstrate the functionality of 3 primary React Hooks: useState, useEffect, and useContext.
 
-Primary references for this presentation include:\
+Primary references for this presentation include:
 - [React Hooks Documentation](https://reactjs.org/docs/hooks-reference.html).
 - [React Hooks Tutorial](https://www.youtube.com/watch?v=f687hBjwFcM&t=2333s).
 - [10 React Hooks Explained // Plus Build your own from Scratch](https://www.youtube.com/watch?v=TNhaISOUy6Q).
